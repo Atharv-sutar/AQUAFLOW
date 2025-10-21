@@ -7,11 +7,11 @@
 // -----------------------------
 // WiFi and Firebase credentials
 // -----------------------------
-#define WIFI_SSID "sutar 2g"
-#define WIFI_PASSWORD "@tadso2204"
-#define API_KEY "AIzaSyCzNCUfZnJJVHkPRt-Y5-WH5xzwYU_zFco"
-#define DATABASE_URL "https://espfirebase-9b9be-default-rtdb.firebaseio.com/"
-#define DATABASE_SECRET "Cj62zu3a1Qxms0LqnqSNb6SfrOwUBjXtU3KEEqPZ"
+#define WIFI_SSID "your wifi ssid"
+#define WIFI_PASSWORD "your wifi password"
+#define API_KEY "api key"
+#define DATABASE_URL "database url"
+#define DATABASE_SECRET "secret key"
 
 // -----------------------------
 // Firebase objects
