@@ -92,7 +92,7 @@ void loop() {
 
 
     unsigned long currentMillis = millis();
-    Serial.print("difference = ");Serial.print(currentMillis - previousMillis);Serial.println("");
+    
     if (currentMillis - previousMillis >= interval) {
       previousMillis = currentMillis;
       
@@ -221,7 +221,7 @@ void soilMoisture() {
         Serial.print(" Firebase updated");
 
   } else {
-    Serial.print("❌ Firebase update failed: ");
+
     Serial.println(fbdo.errorReason());
   }
 }
